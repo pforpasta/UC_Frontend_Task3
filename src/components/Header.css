@@ -1,0 +1,29 @@
+.header-bar{
+  position: fixed;
+  top: 32px;
+  left: 60px;
+  border: none;
+}
+
+.portfolio{
+  background-color: #6fc24c;
+  color: #ffffff;
+  border-right: none;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.main-header{
+  display: flex;
+  background-color: #ffffff;
+  border-right: none;
+  width: 840px;
+  padding: 10px 70px;
+  justify-content:space-between;
+}
+
+.contact-me{
+  background-color: #82aaff;
+  padding: 20px 50px;
+  align-items: center;
+}
