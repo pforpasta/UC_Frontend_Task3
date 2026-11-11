@@ -18,9 +18,15 @@ export function ContactMe() {
 
       <div className='contactme-right'>
         <div className='logos-box'>
-          <img src={LinkedIn} alt="" />
-          <img src={Git} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://www.instagram.com/sssobiaaaaa/?__d=dist" target='blank'>
+            <img src={LinkedIn} alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/pforpasta" target='blank'>
+            <img src={Git} alt="GitHub" />
+          </a>
+          <a href="https://www.instagram.com/sssobiaaaaa/?__d=dist" target='blank'>
+            <img src={Instagram} alt="Instagram" />
+          </a>
         </div>
       </div>
     </div>
