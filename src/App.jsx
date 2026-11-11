@@ -13,17 +13,21 @@ function App() {
   return (
     <div>
       <Header />
-      <AboutMe />
-      <Skills />
+      <section id='aboutme'><AboutMe /></section>
+      <section id='skills'><Skills /></section>
+
       <div className='featured-projects-certifications'>
-        <FeaturedProjects />
-        <Certifications />
+        <section id='featuredprojects'><FeaturedProjects /></section>
+        <section id='certifications'><Certifications /></section>
       </div>
+
       <div className='achievements-contact-me'>
-        <Achievements />
-        <ContactMe />
+        <section id='achievements'><Achievements /></section>
+        <section id='contactme'><ContactMe /></section>
       </div>
-      <Footer />
+
+      <section><Footer /></section>
+
     </div>
   )
 }
