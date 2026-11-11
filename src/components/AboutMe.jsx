@@ -4,7 +4,13 @@ export function AboutMe(){
   return(
     <div className='main'>
       <div className='aboutme-left'>
-        hello
+        <p className='orange-box'>HI! MY NAME IS</p>
+        <p className='user-name'>SOBIA <br /> KHAN</p>
+        <p className='user-about'>I build scalable web applications and turn <br /> pretty designs into clean, efficient code. </p>
+        <p>
+          <button className='view-my-work-button'>VIEW MY WORK</button>
+          <button className='download-resume-button'>DOWNLOAD RESUME</button>
+        </p>
       </div>
       <div className='aboutme-right'>
         <div className='green-box' />
