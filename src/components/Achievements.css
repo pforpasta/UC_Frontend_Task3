@@ -1,0 +1,25 @@
+.main-achievements{
+  border: 4px solid black;
+  width: 440px;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: #ff5370;
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievement-header{
+  color: #202759;
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.achievement-body{
+  color: white;
+  font-family: "Courier Prime", monospace;
+  font-size: 15px;
+}
