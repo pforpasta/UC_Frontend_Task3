@@ -5,6 +5,7 @@ import { FeaturedProjects } from './components/FeaturedProjects';
 import { Certifications } from './components/Certifications';
 import { Achievements } from './components/Achievements';
 import { ContactMe } from './components/ContactMe';
+import { Footer } from './components/Footer';
 import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Achievements />
         <ContactMe />
       </div>
+      <Footer />
     </div>
   )
 }
