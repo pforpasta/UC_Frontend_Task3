@@ -11,6 +11,9 @@ body {
   margin: 0;
   display: flex;
   padding: 0px;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 button {

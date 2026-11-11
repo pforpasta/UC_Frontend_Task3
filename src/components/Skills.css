@@ -1,0 +1,46 @@
+.main{
+  margin-top: 0px;
+
+}
+
+.skills-box{
+  background-color: #82aaff;
+  color: black;
+  font-size: 20px;
+  width: 200px;
+  border: 4px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actual-skills-box{
+  background-color: white;
+  width: 1204px;
+  border: 4px solid black;
+  border-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.section, .react-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Tulpen One", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+
+.react-section{
+  margin-right: 0px;
+}
+
+.icon{
+  padding: 0px;
+  margin-bottom: 5px;
+}
