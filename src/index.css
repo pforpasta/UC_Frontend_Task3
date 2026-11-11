@@ -43,4 +43,5 @@ button:focus{
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
