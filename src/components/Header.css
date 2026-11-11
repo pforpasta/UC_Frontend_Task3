@@ -1,9 +1,10 @@
 .header-bar{
   display: flex;
-  position: fixed;
-  top: 32px;
+  position: sticky;
+  top: 0px;
   left: 60px;
   border: none;
+  z-index: 1000;
 }
 
 .portfolio{

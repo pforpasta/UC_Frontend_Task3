@@ -2,6 +2,90 @@
   border: 4px solid black;
   border-top: none;
   border-right: none;
-  width: 900px;
+  width: 870px;
   background-color: white;
+  padding-left: 30px;
+  padding-top: 30px;
 }
+
+.heading{
+  font-size: 40px;
+}
+
+.click-left-button, .click-right-button{
+  background-color: #ff5370;
+  color: white;
+  padding: 10px;
+  padding-top: 0px;
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.click-left-button{
+  margin-left: 120px;
+}
+
+.project-box{
+  margin-top: 30px;
+  height: 500px;
+  width: 600px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
+}
+
+.project-image{
+  height: 250px;
+  border: 30px solid #ff5370;
+}
+
+.project-about{
+  height: 250px;
+  border-top: 4px solid black;
+  background-color: #202759;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.project-about-header{
+  margin: 0px;
+  font-size: 40px;
+  color: #00c4cc;
+}
+
+.project-about-body{
+  margin: 0px;
+  margin-top: 10px;
+  font-family: "Courier Prime", monospace;
+}
+
+.project-about-languages{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-start, .language, .language-end{
+  border: 2px solid white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.language-start{
+  margin-left: 0px;
+}
+
+.language-end{
+  margin-right: 70px;
+}
+
+.view-details-button{
+  padding: 5px 10px;
+  color: #202759;
+  margin-right: 20px;
+}
+
