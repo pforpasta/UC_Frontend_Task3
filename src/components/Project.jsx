@@ -4,7 +4,7 @@ export function Project({project}) {
   return (
     <div className='project-box'>
       <div className='project-image'>
-
+        <img src={project.img} className='project-img'/>
       </div>
       <div className='project-about'>
         <p className='project-about-header'>{project.header}</p>

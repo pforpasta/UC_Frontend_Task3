@@ -1,5 +1,7 @@
 import './AboutMe.css'
 import UserImage from '../assets/user-image.jpeg'
+import Resume from '/C158_DBMSExperiment05.pdf'
+
 export function AboutMe(){
   return(
     <div className='main'>
@@ -8,8 +10,12 @@ export function AboutMe(){
         <p className='user-name'>SOBIA <br /> KHAN</p>
         <p className='user-about'>I build scalable web applications and turn <br /> pretty designs into clean, efficient code. </p>
         <p>
-          <button className='view-my-work-button'>VIEW MY WORK</button>
-          <button className='download-resume-button'>DOWNLOAD RESUME</button>
+          <a href="https://github.com/pforpasta" download="SobiaResume.pdf" target='blank'>
+            <button className='view-my-work-button'>VIEW MY WORK</button>
+          </a>
+          <a href={Resume} download="SobiaResume.pdf">
+            <button className='download-resume-button'>DOWNLOAD RESUME</button>
+          </a>
         </p>
       </div>
       <div className='aboutme-right'>

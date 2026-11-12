@@ -1,24 +1,29 @@
 import './FeaturedProjects.css'
 import { Project } from './Project.jsx'
 import { useState } from 'react'
+import studyFlow from '../assets/studyflow-image.png'
+
 export function FeaturedProjects() {
   const [index, setIndex] = useState(0);
 
   const projects = [{
     header: 'StudyFlow',
-    body: 'StudyFlow, a single-page productivity dashboard designed to help students organize, manageand track their academic tasks in one place.',
+    body: 'StudyFlow, a single-page productivity dashboard designed to help students organize, manage and track their academic tasks in one place.',
     languages: ['HTML', 'CSS', 'JavaScript'],
-    linkedin: 'https://github.com/pforpasta/Sobia-Frontend-UC-Interview'
+    linkedin: 'https://github.com/pforpasta/Sobia-Frontend-UC-Interview',
+    img: studyFlow
   }, {
     header: 'CoffeeCafe',
     body: 'blah blah', 
     languages: ['HTML', 'Python'],
-    linkedin: 'https://github.com/pforpasta/Sobia-Frontend-UC-Interview'
+    linkedin: 'https://github.com/pforpasta/Sobia-Frontend-UC-Interview',
+    img: studyFlow
   }, {
     header: 'CatGPT',
     body: 'blah blah blah blah blah blah blah blah blah blah', 
     languages: ['React', 'TailwindCSS', 'Javascript', 'CSS'],
-    linkedin: 'https://github.com/pforpasta/Sobia-Frontend-UC-Interview'
+    linkedin: 'https://github.com/pforpasta/Sobia-Frontend-UC-Interview',
+    img: studyFlow
   }];
 
   const number = projects.length;

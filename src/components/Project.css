@@ -9,7 +9,7 @@
 }
 
 .project-image{
-  height: 250px;
+  height: 200px;
   border: 30px solid #ff5370;
 }
 
@@ -56,4 +56,8 @@
   padding: 5px 10px;
   color: #202759;
   margin-right: 20px;
+}
+
+.project-img{
+  height: 100%;
 }
